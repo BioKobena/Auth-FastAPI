@@ -5,7 +5,7 @@ from decouple import config
 
 
 JWT_SECRET = config('secret')
-JWT_ALGORITH = config("alogrithm")
+JWT_ALGORITH = config("algorithm")
 
 #Function returns the generated Tokens (JWTs)
 def token_response(token: str):
