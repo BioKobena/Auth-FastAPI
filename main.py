@@ -1,6 +1,7 @@
 import uvicorn
 from fastapi import FastAPI
-from app.model import PostSchema
+from app.model import PostSchema, UserSchema, UserLoginSchema
+from app.auth.jwt_handler import signJWT
 
 
 
